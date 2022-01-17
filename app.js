@@ -66,6 +66,7 @@ function onSearchSubmit(event) {
 	+"%23뷔슐랭 OR "
 	//샤이니
 	+"%23기범아_나혼자먹는거_아니야 OR "
+	/*
 	//더보이즈
 	+"%23여보세요_상연아_나_맛집이야_끊어 OR "
 	+"%23상상그이상의_맛집 OR "
@@ -84,6 +85,7 @@ function onSearchSubmit(event) {
 	//기타
 	+"%23강다니엘_염염긋 OR "
 	+"%23황제님을위한메뉴판 OR "
+	*/
 	+"%23꾸꾸야_꾸친이_먹어봤꾸"
 	+"&src=typed_query&f=top");
 }

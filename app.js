@@ -21,12 +21,15 @@ function onSearchSubmit(event) {
 	+"%23황제님을위한메뉴판 OR "
 	+"%23정우의_원데이씩스밀 OR "
 	+"%23제노의_맛그당어 OR "
-	+"%23먹어봤도영"
+	+"%23먹어봤도영 OR "
+	+"%23채형원_너는세입도못먹겠지 OR "
+	+"%23기범아_나혼자먹는거_아니야 OR "
+	+"%23여보세요_상연아_나_맛집이야_끊어 OR "
+	+"%23상상그이상의_맛집 OR "
+	+"%23콥이는_콥빼기로주세요 OR "
+	+"%23영훈아_빵빵하게_먹어 OR "
+	+"%23재현아_차츰공복이드리울테니"
 	+"&src=typed_query&f=top");
 }
 
-//링크 만들기
-
 searchForm.addEventListener("submit", onSearchSubmit);
-
-//window.open('https://twitter.com/search?q=망원%23승연아_우즈야_여기야OR%23강다니엘_염염긋&src=typed_query&f=top');

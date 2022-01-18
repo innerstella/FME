@@ -1,16 +1,12 @@
 .hidden{
     display : none;
 }
-/*
+
 body{
-    background-image:url('C:/2022_1_toyproject/winner.jpg');
-    background-repeat : no-repeat;
-    background-position : center;
-    background-size : cover;
-    vertical-align:middle;
+    background-color : rgb(189, 187, 67);
 }
 
-
+/*
 .container {
     background : rgba(128, 157, 238, 0.5);
     height: 10vh;

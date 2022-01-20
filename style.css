@@ -6,13 +6,13 @@ body{
     background-color : rgb(255, 255, 255);
 }
 
-/*
-.container {
-    background : rgba(128, 157, 238, 0.5);
-    height: 10vh;
-    width : 100vh;
+
+eventButton {
+    background : rgb(189, 228, 247);
+    height: 10;
+    width : 20;
     
-}*/
+}
 
 
 #wrapper{

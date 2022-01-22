@@ -15,6 +15,13 @@ function onSearchSubmit(event) {
 	//장소
 	+locationname
 	//해시태그
+
+	//위너
+	+"%23위EAT_인EAT OR "
+	+"%23승윤이의_맛집_PAGE OR "
+	+"%23이맛집_찐받네 OR "
+	+"%23마이노_마이무 OR "
+	+"%23훈슐랭_여기도가봤니 OR "
 	//nct
 	+"%23박지성_단1g도안줌 OR "
 	+"%23제노의_맛그당어 OR "

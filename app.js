@@ -55,7 +55,8 @@ function onSearchSubmit(event) {
 	+"%23강다니엘_염염긋 OR "
 	+"%23우석아_맛집으로_우따따따 OR "
 	+"%23승연아_우즈야_여기야 OR "
-	+"%23황제님을위한메뉴판"
+	+"%23황제님을위한메뉴판 OR "
+	+"📍"
 	+"&src=typed_query&f=top");
 }
 

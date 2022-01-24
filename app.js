@@ -3,24 +3,23 @@ const searchForm = document.querySelector("#search-form");
 const searchArea = document.querySelector('#searchArea');
 
 const HIDDEN_CLASSNAME = "hidden";
+/*
+var backgroundImage = [
+	'./random_image/강승윤.jpg',
+	'./random_image/송민호.jpg',
+	'./random_image/아낙네.jpg',
+	'./random_image/위너.jpg',
+	'./random_image/이장준.jpg',
+	'./random_image/임창균.jpg',
+	'./random_image/홍중.jpg',
+	'./random_image/홍지수.jpg',
+	'./random_image/휘영.jpg'
+];
+function showImage(){
+	var objImg = document.getElementById("randomImage");
+	const myImg = backgroundImage[4];
 
-window.onload = choosePic;
-
-var myPix = new Array(
-	"./random_image/강승윤.jpg",
-	"./random_image/송민호.jpg",
-	"./random_image/아낙네.jpg",
-	"./random_image/위너.jpg",
-	"./random_image/이장준.jpg",
-	"./random_image/임창균.jpg",
-	"./random_image/홍중.jpg",
-	"./random_image/홍지수.jpg",
-	);
-
-function choosePic(){
-	var randomNum = Math.floor(Math.random() * myPix.length);
-	document.getElementById("myPicture").src = myPix[randomNum];
-}
+}; */
 
 function onSearchSubmit(event) {
 	event.preventDefault();
@@ -78,8 +77,8 @@ function onSearchSubmit(event) {
 	+"%23효진이는_앞으로도_꾸준히먹자 OR "
 
 	//스키즈
-	+"%23여기맛있승민 OR "
-	+"%23리노는_배고파 OR "
+	//+"%23여기맛있승민 OR "
+	//+"%23리노는_배고파 OR "
 
 	//에이티즈
 	+"%23에이티즈_우리배는_식도로만_가 OR "

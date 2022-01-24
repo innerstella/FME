@@ -4,6 +4,23 @@ const searchArea = document.querySelector('#searchArea');
 
 const HIDDEN_CLASSNAME = "hidden";
 
+window.onload = choosePic;
+
+var myPix = new Array(
+	"./random_image/강승윤.jpg",
+	"./random_image/송민호.jpg",
+	"./random_image/아낙네.jpg",
+	"./random_image/위너.jpg",
+	"./random_image/이장준.jpg",
+	"./random_image/임창균.jpg",
+	"./random_image/홍중.jpg",
+	"./random_image/홍지수.jpg",
+	);
+
+function choosePic(){
+	var randomNum = Math.floor(Math.random() * myPix.length);
+	document.getElementById("myPicture").src = myPix[randomNum];
+}
 
 function onSearchSubmit(event) {
 	event.preventDefault();
@@ -33,6 +50,7 @@ function onSearchSubmit(event) {
 	+"%23조슈아_먹어보슈아 OR "
 	+"%23순영아_이거_맛있어 OR "
 	+"%23원우야_여기_테이스티 OR "
+	+"%23도겸이도_도아할_맛집 OR "
 
 	//엑소
 	+"%23백현이를_위한_맛집투어 OR "
@@ -49,6 +67,7 @@ function onSearchSubmit(event) {
 
 	//샤이니
 	+"%23기범아_나혼자먹는거_아니야 OR "
+	+"%23릴프릭이_함냐함냐함 OR "
 
 	//더보이즈
 	+"%23김선우_맛있는걸내가놔둘리가 OR "

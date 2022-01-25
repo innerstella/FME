@@ -15,7 +15,13 @@ var backgroundImage = [
 	'./random_image/임창균.jpg',
 	'./random_image/홍중.jpg',
 	'./random_image/홍지수.jpg',
-	'./random_image/휘영.jpg'
+	'./random_image/휘영.jpg',
+	'./random_image/원우.jpg',
+	'./random_image/기범.jpg',
+	'./random_image/윤현석.jpg',
+	'./random_image/조슈아.jpg',
+	'./random_image/최승철.jpg',
+	'./random_image/도겸.jpg'
 ];
 
 function showImage(){

@@ -21,7 +21,10 @@ var backgroundImage = [
 	'./random_image/윤현석.jpg',
 	'./random_image/조슈아.jpg',
 	'./random_image/최승철.jpg',
-	'./random_image/도겸.jpg'
+	'./random_image/도겸.jpg',
+	'./random_image/용복.jpg',
+	'./random_image/호싱이.jpg',
+	'./random_image/채.jpg'
 ];
 
 function showImage(){

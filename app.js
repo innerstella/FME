@@ -3,7 +3,9 @@ const searchForm = document.querySelector("#search-form");
 const searchArea = document.querySelector('#searchArea');
 
 const HIDDEN_CLASSNAME = "hidden";
-/*
+
+window.onload = showImage;
+
 var backgroundImage = [
 	'./random_image/강승윤.jpg',
 	'./random_image/송민호.jpg',
@@ -15,11 +17,11 @@ var backgroundImage = [
 	'./random_image/홍지수.jpg',
 	'./random_image/휘영.jpg'
 ];
-function showImage(){
-	var objImg = document.getElementById("randomImage");
-	const myImg = backgroundImage[4];
 
-}; */
+function showImage(){
+	var randomNum = Math.floor(Math.random() * backgroundImage.length); //이미지 랜덤으로 뽑아냄
+	document.getElementById("randomImg").src = backgroundImage[randomNum];
+};
 
 function onSearchSubmit(event) {
 	event.preventDefault();
@@ -75,10 +77,6 @@ function onSearchSubmit(event) {
 	//온앤오프
 	+"%23이션같이찌자 OR "
 	+"%23효진이는_앞으로도_꾸준히먹자 OR "
-
-	//스키즈
-	//+"%23여기맛있승민 OR "
-	//+"%23리노는_배고파 OR "
 
 	//에이티즈
 	+"%23에이티즈_우리배는_식도로만_가 OR "

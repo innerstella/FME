@@ -24,7 +24,8 @@ var backgroundImage = [
 	'./random_image/도겸.jpg',
 	'./random_image/용복.jpg',
 	'./random_image/호싱이.jpg',
-	'./random_image/채.jpg'
+	'./random_image/채.jpg',
+	'./random_image/이준.jpg'
 ];
 
 function showImage(){

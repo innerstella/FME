@@ -4,7 +4,7 @@ const searchArea = document.querySelector('#searchArea');
 
 const HIDDEN_CLASSNAME = "hidden";
 
-function svtFn(event) {
+function winnerFn(event) {
 	event.preventDefault();
 	searchForm.classList.add(HIDDEN_CLASSNAME);
 	const locationname = searchInput.value;
@@ -25,4 +25,4 @@ function svtFn(event) {
 };
 
 
-searchForm.addEventListener("submit", svtFn );
+searchForm.addEventListener("submit", winnerFn );

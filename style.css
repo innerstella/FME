@@ -17,9 +17,12 @@ eventButton {
 
 
 #idol{
-    background : rgb(29, 180, 255);
-    height: 10;
-    width : 20;
+    background : rgb(79, 153, 233);
+    color :rgb(255, 255, 255);
+    border : none;
+    font-size:15px;
+    padding : 10px 15px;
+    
 }
 
 #wrapper{

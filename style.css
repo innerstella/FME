@@ -15,6 +15,13 @@ eventButton {
 }
 
 
+
+#idol{
+    background : rgb(29, 180, 255);
+    height: 10;
+    width : 20;
+}
+
 #wrapper{
     height: auto;
     min-height : 100%;

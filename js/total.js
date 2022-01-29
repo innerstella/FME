@@ -53,7 +53,6 @@ function onSearchSubmit(event) {
 	+"%23릴프릭이_함냐함냐함 OR "
 
 	//더보이즈
-	+"%23김선우_맛있는걸내가놔둘리가 OR "
 	+"%23ㄷㅂㅇㅈ OR "
 
 	//온앤오프
@@ -68,6 +67,7 @@ function onSearchSubmit(event) {
 	+"%23우석아_맛집으로_우따따따 OR "
 	+"%23승연아_우즈야_여기야 OR "
 	+"%23황제님을위한메뉴판 OR "
+	+"%23예의있게_추천해 OR "
 	+"📍"
 	+"&src=typed_query&f=top");
 };

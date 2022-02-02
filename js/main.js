@@ -16,7 +16,11 @@ var backgroundImage = [
 	'./img/kh.jpg',
 	'./img/ksy1.jpg',
 	'./img/ksy2.jpg',
-	'./img/svt.gif'
+	'./img/svt.gif',
+	'./img/bjy.jpg',
+	'./img/leejoon.jpg',
+	'./img/leejoon2.jpg',
+
 
 ];
 

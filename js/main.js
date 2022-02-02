@@ -7,16 +7,16 @@ const HIDDEN_CLASSNAME = "hidden";
 window.onload = showImage;
 
 var backgroundImage = [
-	'./img_key/1.jpg',
-	'./img_key/2.jpg',
-	'./img_key/3.jpg',
-	'./img_key/4.jpg',
-	'./img_key/5.jpg',
-	'./img_key/6.jpg',
-	'./img_key/7.jpg',
-	'./img_key/8.jpg',
-	'./img_key/9.jpg',
-	'./img_key/10.jpg'
+	'./img/joshua.jpg',
+	'./img/green.jpg',
+	'./img/cix.jpg',
+	'./img/mx.jpg',
+	'./img/skz.jpg',
+	'./img/tiger.jpg',
+	'./img/kh.jpg',
+	'./img/ksy1.jpg',
+	'./img/ksy2.jpg',
+	'./img/svt.gif'
 
 ];
 

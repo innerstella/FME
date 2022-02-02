@@ -65,8 +65,7 @@ function onSearchSubmit(event) {
 	+"%23승연아_우즈야_여기야 OR "
 	+"%23황제님을위한메뉴판 OR "
 	+"%23예의있게_추천해 OR "
-	+"%23지훈아_여기가_맛있지훈 OR "
-	+"📍"
+	+"%23지훈아_여기가_맛있지훈"
 	+"&src=typed_query&f=top");
 };
 

@@ -21,7 +21,9 @@ var backgroundImage = [
 	'./img/leejoon.jpg',
 	'./img/leejoon2.jpg',
 	'./img/minkyu.jpg',
-	'./img/vernon.jpg'
+	'./img/vernon.jpg',
+	'./img/seungmin.jpg'
+
 
 ];
 

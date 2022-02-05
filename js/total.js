@@ -19,7 +19,6 @@ function onSearchSubmit(event) {
 	+"%23위EAT_인EAT OR "
 	+"%23승윤이의_맛집_PAGE OR "
 	+"%23이맛집_찐받네 OR "
-	+"%23마이노_마이무 OR "
 	+"%23훈슐랭_여기도가봤니 OR "
 	//nct
 	+"%23박지성_단1g도안줌 OR "
@@ -67,7 +66,8 @@ function onSearchSubmit(event) {
 	+"%23승연아_우즈야_여기야 OR "
 	+"%23황제님을위한메뉴판 OR "
 	+"%23예의있게_추천해 OR "
-	+"%23지훈아_여기가_맛있지훈"
+	+"%23지훈아_여기가_맛있지훈 OR "
+	+"%23김재환_밥은_잘먹고있냐"
 	+"&src=typed_query&f=top");
 };
 

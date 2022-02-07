@@ -7,23 +7,16 @@ const HIDDEN_CLASSNAME = "hidden";
 window.onload = showImage;
 
 var backgroundImage = [
-	'./img/joshua.jpg',
-	'./img/green.jpg',
-	'./img/cix.jpg',
-	'./img/mx.jpg',
-	'./img/skz.jpg',
-	'./img/tiger.jpg',
-	'./img/kh.jpg',
-	'./img/ksy1.jpg',
-	'./img/ksy2.jpg',
-	'./img/svt.gif',
-	'./img/bjy.jpg',
-	'./img/leejoon.jpg',
-	'./img/leejoon2.jpg',
-	'./img/minkyu.jpg',
-	'./img/vernon.jpg',
-	'./img/seungmin.jpg'
-
+	'./img/1.gif',
+	'./img/2.gif',
+	'./img/3.gif',
+	'./img/4.gif',
+	'./img/5.gif',
+	'./img/6.gif',
+	'./img/7.gif',
+	'./img/8.gif',
+	'./img/9.gif',
+	'./img/10.gif',
 
 ];
 

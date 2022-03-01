@@ -4,7 +4,7 @@ const searchArea = document.querySelector('#searchArea');
 
 const HIDDEN_CLASSNAME = "hidden";
 
-function nctFn(event) {
+function nctdreamFn(event) {
 	event.preventDefault();
 	searchForm.classList.add(HIDDEN_CLASSNAME);
 	const locationname = searchInput.value;
@@ -32,4 +32,4 @@ function nctFn(event) {
 };
 
 
-searchForm.addEventListener("submit", nctFn );
+searchForm.addEventListener("submit", nctdreamFn );

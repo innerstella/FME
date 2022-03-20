@@ -1,6 +1,4 @@
-const searchInput = document.querySelector("#search-form input");
-const searchForm = document.querySelector("#search-form");
-const searchArea = document.querySelector('#searchArea');
+
 
 const HIDDEN_CLASSNAME = "hidden";
 
@@ -25,3 +23,19 @@ function showImage(){
 	document.getElementById("randomImg").src = backgroundImage[randomNum];
 };
 
+function feedback_alert(){
+	alert("이용해주셔서 감사합니다 🥰");
+}
+
+const feedbackInput = document.querySelector("#feedback input");
+const feedbackForm = document.querySelector("#feedback");
+
+feedbackForm.addEventListener("submit", feedbackFn);
+
+function feedbackFn(event){
+	event.preventDefault();
+	searchForm.classList.add(HIDDEN_CLASSNAME);
+	const feedBack = feedbackInput.value;
+	localStorage.setItem("feedBack", feedBack);
+	console.log(feedBack);
+}

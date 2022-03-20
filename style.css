@@ -11,12 +11,19 @@ body{
     align-items: center;
 }
 
-
+p{
+    font-size: 8px;
+}
 eventButton {
     background : rgb(189, 228, 247);
     height: 10;
     width : 20;
     
+}
+
+a#feed{
+    text-decoration-line: none;
+    color: black;
 }
 
 p#initial{

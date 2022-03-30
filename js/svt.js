@@ -11,7 +11,7 @@ function svtFn(event) {
 	localStorage.setItem("locationname", locationname);
 	console.log(locationname);
 	window.open("https://twitter.com/search?q="
-	//장소
+	
 	+locationname
     +"%23승철이_이거먹고_볼빵빵했꾸마 OR "
 	+"%23정한아_마니머거여ㅎㅎ OR "
@@ -27,7 +27,9 @@ function svtFn(event) {
     +"%23믿고먹어boo세요 OR "
     +"%23버논아_혹시여긴_맛집 OR "
     +"%23라즈지 OR "
-    +"%23디노야_여기_케이밥의_미래"
+    +"%23디노야_여기_케이밥의_미래 OR "
+	+"%23캐럿들_여기_캐맛있어 OR "
+	+"%23계산은_쿱스가"
 	+"&src=typed_query&f=top");
 };
 

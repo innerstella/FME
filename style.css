@@ -20,6 +20,14 @@ eventButton {
     width : 20;
     
 }
+p#up{
+    margin : 1px;
+}
+
+p#update{
+    font-size: 13px;
+    font-weight: 500;
+}
 
 a#feed{
     text-decoration-line: none;

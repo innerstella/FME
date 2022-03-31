@@ -45,6 +45,15 @@ p#initial{
     font-size: 10px;
 }
 
+p#box{
+    font-weight: bolder;
+    color: red;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
 button#search{
     font-family: 'SUIT', sans-serif;
     font-size: 17px;

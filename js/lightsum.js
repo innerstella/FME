@@ -4,7 +4,7 @@ const searchArea = document.querySelector('#searchArea');
 
 const HIDDEN_CLASSNAME = "hidden";
 
-function theboyzFn(event) {
+function lightFn(event) {
 	event.preventDefault();
 	searchForm.classList.add(HIDDEN_CLASSNAME);
 	const locationname = searchInput.value;
@@ -13,18 +13,19 @@ function theboyzFn(event) {
 	window.open("https://twitter.com/search?q="
 	//장소
 	+locationname
-	//해시태그
+    +"%23상아야_여기_맛집_맞지 OR "
+	+"%23초원아_이거먹을래 OR "
+	+"%23나영이랑_더_빠르게_맛집_찾아볼래요 OR "
+    +"%23밥먹었나영 OR "
+    +"%23히나짱의_맛있는_집 OR "
+    +"%23히나모롤의_추천맛집 OR "
+    +"%23쭈대장과_함께 OR "
+    +"%23유정이가_좋아하는_맛집_좀_추천해줄래 OR "
+    +"%23휘연이와_함께하고싶은_곳 OR "
+    +"%23지냥이_배고파"
 
-	//위너
-	+"%23맛있겠짛_주연앟 OR "
-	+"%23이주연_난늘배고파_베베 OR "
-	+"%23이재현_치킨이다가아니야 OR "
-	+"%23어이어이_이재현_여기다 OR "
-	+"%23영훈아_밥좀많이먹어라 OR "
-	+"%23재현아_차츰공복이드리울테니 OR "
-    +"%23영훈아_빵빵하게_먹어"
 	+"&src=typed_query&f=top");
 };
 
 
-searchForm.addEventListener("submit", theboyzFn );
+searchForm.addEventListener("submit", lightFn );

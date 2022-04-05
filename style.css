@@ -20,6 +20,11 @@ eventButton {
     width : 20;
     
 }
+
+#update{
+    max-width: 200px;
+}
+
 p#up{
     margin : 1px;
 }
@@ -27,6 +32,11 @@ p#up{
 p#update{
     font-size: 13px;
     font-weight: 500;
+}
+
+p#notice{
+    font-size: 10px;
+    font-weight: 700;
 }
 
 a#feed{
@@ -83,9 +93,17 @@ button#blue{
     font-family: 'SUIT', sans-serif;
     background : rgb(138, 185, 235);
     color :rgb(255, 255, 255);
+    padding: 7px  13px;
+    margin-top: 4px;
+    border: none;
+}
+button#mara{
+    background : rgb(138, 185, 235);
+    color :rgb(255, 255, 255);
     padding: 7px;
     margin-top: 4px;
     border: none;
+
 }
 
 #group_button{

@@ -22,12 +22,18 @@ eventButton {
 }
 
 button#notice{
-    border: none;
-    background-color: rgb(79, 92, 233);
-    color: white;
-    padding: 7px;
+    border: solid 3px rgb(252,205,135);
+    padding: 2px 10px;
     margin-top: 4px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 242, 31);
 
+}
+
+p#notice{
+    font-size: 10px;
+    font-weight: 700;
+    color: black;
 }
 
 #update{
@@ -43,10 +49,7 @@ p#update{
     font-weight: 500;
 }
 
-p#notice{
-    font-size: 10px;
-    font-weight: 700;
-}
+
 
 a#feed{
     text-decoration-line: none;

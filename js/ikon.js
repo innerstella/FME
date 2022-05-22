@@ -4,7 +4,7 @@ const searchArea = document.querySelector('#searchArea');
 
 const HIDDEN_CLASSNAME = "hidden";
 
-function vixxFn(event) {
+function ikonFn(event) {
 	event.preventDefault();
 	searchForm.classList.add(HIDDEN_CLASSNAME);
 	const locationname = searchInput.value;
@@ -14,13 +14,15 @@ function vixxFn(event) {
 	//장소
 	+locationname
 
-	+"%23택운이를_위한_뮤슐랭가이드 OR "
-	+"%23학연이가_뇸뇸_먹어볼까욘 OR "
-	+"%23라비_맛집_도와드려요 OR "
-	+"%23갈비찜을밥위에얹어주세횩 OR "
-	+"%23쟌이뭐먹어"
+	+"%23이식당놓쳐서후회한다면후회한시간을후회할거잖아후회하기싫음후회할일들을후회하기전에_이거먹어봐 OR "
+	+"%23지나니_이거맛나니 OR "
+	+"%23바비야밥이왔어요 OR "
+	+"%23윤형아_여기맛집이햫 OR "
+    +"%23준회야_여기밥많이주내 OR "
+	+"%23찬우야여기맛집이_왔쨔뇨 OR "
+	+"%23김동동_일단밥부터먹혁"
 	+"&src=typed_query&f=top");
 };
 
 
-searchForm.addEventListener("submit", vixxFn );
+searchForm.addEventListener("submit", ikonFn );

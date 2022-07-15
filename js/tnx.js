@@ -4,7 +4,7 @@ const searchArea = document.querySelector("#searchArea");
 
 const HIDDEN_CLASSNAME = "hidden";
 
-function nctFn(event) {
+function tnxFn(event) {
   event.preventDefault();
   searchForm.classList.add(HIDDEN_CLASSNAME);
   const locationname = searchInput.value;
@@ -14,18 +14,15 @@ function nctFn(event) {
     "https://twitter.com/search?q=" +
       //장소
       locationname +
-      //해시태그
-
-      //위너
-      "%23레이븐이_가봐야할_이쁜_맛집 OR " +
-      "%23서호야_호호불어먹어  OR " +
-      "%23궈낙아_이거머궈봐 OR " +
-      "%23건학아_이거만먹고_운동할게 OR " +
-      "%23건희를_위한_추천맛집 OR " +
-      "%23환웅아이거먹고사람될게 OR " +
-      "%23내동주고_사먹은_맛집후기" +
+      "%23냠냠쭌쭌 OR " +
+      "%23복숭아맛집 OR " +
+      "%23성준아_여기_같이_오자 OR " +
+      "%23오냠오냠 OR " +
+      "%23휘로록짭짭 OR " +
+      "%23낑깡현수 OR " +
+      "%23휘풍당당_맛집_나가신다" +
       "&src=typed_query&f=top"
   );
 }
 
-searchForm.addEventListener("submit", nctFn);
+searchForm.addEventListener("submit", tnxFn);

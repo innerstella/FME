@@ -13,8 +13,8 @@ body {
 }
 button#check {
   font-family: "SUIT", sans-serif;
-  font-size: 6px;
-  background: rgb(79, 153, 233);
+  font-size: 8px;
+  background: rgb(133, 185, 240);
   color: rgb(255, 255, 255);
   padding: 7px;
   border: none;

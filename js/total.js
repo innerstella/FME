@@ -38,6 +38,9 @@ function onSearchSubmit(event) {
       "%23믿고먹어boo세요" +
       "&src=typed_query&f=top"
   );
+
+  // 검색 후 창 새로고침
+  location.reload();
 }
 
 searchForm.addEventListener("submit", onSearchSubmit);

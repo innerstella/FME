@@ -767,6 +767,20 @@ function groupFn(event) {
         "%23사회인먹짱클럽" +
         "&src=typed_query&f=top"
     );
+  } else if (GroupName === "아스트로") {
+    window.open(
+      "https://twitter.com/search?q=" +
+        //장소
+        locationname +
+        "%23THIS_IS_EAT OR " +
+        "%23명준이_아가배_지킴단 OR " +
+        "%23진우야_이거다_이거맛있지누 OR " +
+        "%23빈아_운동및식단_포기했다 OR " +
+        "%23돌잔치_음식추천 OR " +
+        "%23로하_이거먹으러_왔따나 OR " +
+        "%23은우야_인누와_같이먹차" +
+        "&src=typed_query&f=top"
+    );
   }
 
   // 검색 후 창 새로고침

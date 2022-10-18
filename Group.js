@@ -781,6 +781,20 @@ function groupFn(event) {
         "%23은우야_인누와_같이먹차" +
         "&src=typed_query&f=top"
     );
+  } else if (GroupName === "하이라이트") {
+    window.open(
+      "https://twitter.com/search?q=" +
+        //장소
+        locationname +
+        "%23두준아나두먹을래 OR " +
+        "%23식샤님의_깨끗한_밥그릇 OR " +
+        "%23식샤님_블로그_올리셨나요 OR " +
+        "%23식샤님_오늘은_뭐드셨어요 OR " +
+        "%23맛섭아_요집이야 OR " +
+        "%23근손실도_이기구왕 OR " +
+        "%23동운아_밥은먹고다니냐" +
+        "&src=typed_query&f=top"
+    );
   }
 
   // 검색 후 창 새로고침

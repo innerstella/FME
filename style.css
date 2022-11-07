@@ -88,13 +88,14 @@ a {
 
 button#search {
   font-family: "SUIT", sans-serif;
-  font-size: 17px;
+  font-size: 1rem;
   background: rgb(79, 153, 233);
   color: rgb(255, 255, 255);
   padding: 7px;
-  margin-top: 4px;
+  margin-top: 7px;
   margin-left: 5px;
   border: none;
+  width: 5rem;
 }
 
 button#home {
@@ -118,13 +119,20 @@ button#blue {
   padding: 7px 13px;
   margin-top: 4px;
   border: none;
+  width: 5rem;
 }
 button#mara {
-  background: rgb(138, 185, 235);
+  background: rgb(255, 59, 59);
   color: rgb(255, 255, 255);
   padding: 7px;
-  margin-top: 4px;
+  margin-top: 10px;
+  width: 10.6rem;
   border: none;
+  font-family: "SUIT", sans-serif;
+  font-size: 0.9rem;
+
+  position: relative;
+  left: 0.1rem;
 }
 
 #group_button {

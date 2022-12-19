@@ -52,8 +52,14 @@ p#notice {
   max-width: 200px;
 }
 
-p#up {
+button#up {
   margin: 1px;
+  padding: 1rem;
+  font-size: 13px;
+  font-weight: 500;
+  color: white;
+  background-color: rgb(4, 80, 51);
+  border: 1px solid green;
 }
 
 p#update {
